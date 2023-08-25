@@ -1,0 +1,29 @@
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  border: 1px solid #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.board {
+  display: inline-block;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  margin-top: 50px;
+}
+
+.status {
+  text-align: center;
+  padding: 20px 0;
+}
